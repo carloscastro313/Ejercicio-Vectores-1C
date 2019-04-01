@@ -18,7 +18,16 @@ int main()
 
     printf("El maximo es %d\n",maximo);
     printf("El minimo es %d\n",minimo);
-    printf("El numero %d esta en el array %d\n",valor ,indice);
+
+    if(indice!=-1)
+    {
+        printf("El numero %d esta en el array %d\n",valor ,indice);
+
+    }else
+    {
+        printf("No se a encontrado el valor buscado\n");
+
+    }
 
     cargarPantalla(numero, t);
 
